@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">MyApp</string>
+    <string name="tab_de_opcoes">tab de opcoes</string>
+    <string name="para_cachorro">para cachorro</string>
+    <string name="para_gato">para gato</string>
+    <string name="para_passaros">para passaros</string>
+    <string name="passaro">Passaro</string>
+    <string name="gato">Gato</string>
+    <string name="cachorro">Cachorro</string>
 </resources>

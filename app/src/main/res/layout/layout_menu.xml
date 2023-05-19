@@ -40,8 +40,8 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/wixmadefordisplayextrabold"
                     android:text="Pets"
-                    android:textColor="@color/teal_200"
-                    android:textAllCaps="true" />
+                    android:textAllCaps="true"
+                    android:textColor="@color/teal_200" />
 
             </LinearLayout>
 
@@ -71,8 +71,8 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/wixmadefordisplayextrabold"
                     android:text="Lojinha"
-                    android:textColor="@color/teal_200"
-                    android:textAllCaps="true" />
+                    android:textAllCaps="true"
+                    android:textColor="@color/teal_200" />
 
             </LinearLayout>
 
@@ -111,8 +111,8 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/wixmadefordisplayextrabold"
                     android:text="Doação"
-                    android:textColor="@color/teal_200"
-                    android:textAllCaps="true" />
+                    android:textAllCaps="true"
+                    android:textColor="@color/teal_200" />
 
             </LinearLayout>
 
@@ -142,8 +142,8 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/wixmadefordisplayextrabold"
                     android:text="Serviços"
-                    android:textColor="@color/teal_200"
-                    android:textAllCaps="true" />
+                    android:textAllCaps="true"
+                    android:textColor="@color/teal_200" />
 
             </LinearLayout>
 

@@ -1,9 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".PetsActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/idTabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/tab_de_opcoes">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/idTabCachorro"
+            android:contentDescription="@string/para_cachorro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cachorro"
+            />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/idTabGato"
+            android:contentDescription="@string/para_gato"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gato"
+            />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/idTabPassaro"
+            android:contentDescription="@string/para_passaros"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/passaro"
+            />
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/idViewPagerPets"
+        android:layout_below="@id/idTabLayout"/>
+
+</RelativeLayout>
