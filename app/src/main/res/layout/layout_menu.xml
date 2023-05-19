@@ -19,7 +19,8 @@
             android:id="@+id/idCard1"
             android:layout_width="180dp"
             android:layout_height="200dp"
-            android:layout_marginEnd="5dp">
+            android:layout_marginEnd="5dp"
+            android:clickable="true">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -37,8 +38,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:fontFamily="@font/wixmadefordisplaymedium"
+                    android:fontFamily="@font/wixmadefordisplayextrabold"
                     android:text="Pets"
+                    android:textColor="@color/teal_200"
                     android:textAllCaps="true" />
 
             </LinearLayout>
@@ -48,7 +50,8 @@
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/MenuLoja"
             android:layout_width="180dp"
-            android:layout_height="200dp">
+            android:layout_height="200dp"
+            android:clickable="true">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -86,7 +89,8 @@
             android:id="@+id/MenuDoacao"
             android:layout_width="180dp"
             android:layout_height="200dp"
-            android:layout_marginEnd="5dp">
+            android:layout_marginEnd="5dp"
+            android:clickable="true">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -115,7 +119,8 @@
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/MenuServicos"
             android:layout_width="180dp"
-            android:layout_height="200dp">
+            android:layout_height="200dp"
+            android:clickable="true">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -153,7 +158,8 @@
             android:id="@+id/MenuParceiros"
             android:layout_width="180dp"
             android:layout_height="200dp"
-            android:layout_marginEnd="5dp">
+            android:layout_marginEnd="5dp"
+            android:clickable="true">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -182,7 +188,8 @@
         <com.google.android.material.card.MaterialCardView
             android:id="@+id/idCard4"
             android:layout_width="180dp"
-            android:layout_height="200dp">
+            android:layout_height="200dp"
+            android:clickable="true">
 
             <LinearLayout
                 android:layout_width="match_parent"

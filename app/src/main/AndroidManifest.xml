@@ -13,6 +13,24 @@
         android:theme="@style/Theme.MyApp"
         tools:targetApi="31">
         <activity
+            android:name=".ParceirosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LocalizacoesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ServicosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DoacoesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AlimentosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PetsActivity"
+            android:exported="false" />
+        <activity
             android:name=".CadUsuActivity"
             android:exported="false" />
         <activity
@@ -32,7 +50,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true"/>
+            android:exported="true" />
     </application>
 
 </manifest>
