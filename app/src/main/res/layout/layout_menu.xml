@@ -16,7 +16,7 @@
         android:orientation="horizontal">
 
         <com.google.android.material.card.MaterialCardView
-            android:id="@+id/idCard1"
+            android:id="@+id/MenuPets"
             android:layout_width="180dp"
             android:layout_height="200dp"
             android:layout_marginEnd="5dp"
@@ -69,8 +69,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:fontFamily="@font/wixmadefordisplaymedium"
+                    android:fontFamily="@font/wixmadefordisplayextrabold"
                     android:text="Lojinha"
+                    android:textColor="@color/teal_200"
                     android:textAllCaps="true" />
 
             </LinearLayout>
@@ -108,8 +109,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:fontFamily="@font/wixmadefordisplaymedium"
+                    android:fontFamily="@font/wixmadefordisplayextrabold"
                     android:text="Doação"
+                    android:textColor="@color/teal_200"
                     android:textAllCaps="true" />
 
             </LinearLayout>
@@ -138,8 +140,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:fontFamily="@font/wixmadefordisplaymedium"
+                    android:fontFamily="@font/wixmadefordisplayextrabold"
                     android:text="Serviços"
+                    android:textColor="@color/teal_200"
                     android:textAllCaps="true" />
 
             </LinearLayout>
@@ -177,7 +180,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:fontFamily="@font/wixmadefordisplaymedium"
+                    android:fontFamily="@font/wixmadefordisplayextrabold"
                     android:text="Parceiros"
                     android:textAllCaps="true" />
 
@@ -186,7 +189,7 @@
         </com.google.android.material.card.MaterialCardView>
 
         <com.google.android.material.card.MaterialCardView
-            android:id="@+id/idCard4"
+            android:id="@+id/MenuLocalizar"
             android:layout_width="180dp"
             android:layout_height="200dp"
             android:clickable="true">
@@ -207,7 +210,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:fontFamily="@font/wixmadefordisplaymedium"
+                    android:fontFamily="@font/wixmadefordisplayextrabold"
                     android:text="Localizar"
                     android:textAllCaps="true" />
 
