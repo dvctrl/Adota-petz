@@ -41,6 +41,14 @@ public class MenuActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(new Intent(getApplicationContext(), PetsActivity.class));
         } else if (v.getId() == R.id.MenuLoja) {
             startActivity(new Intent(getApplicationContext(), AlimentosActivity.class));
+        }else if (v.getId() == R.id.MenuDoacao) {
+            startActivity(new Intent(getApplicationContext(), DoacoesActivity.class));
+        }else if (v.getId() == R.id.MenuServicos) {
+            startActivity(new Intent(getApplicationContext(), ServicosActivity.class));
+        }else if (v.getId() == R.id.MenuParceiros) {
+            startActivity(new Intent(getApplicationContext(), ParceirosActivity.class));
+        }else if (v.getId() == R.id.MenuLocalizar) {
+            startActivity(new Intent(getApplicationContext(), LocalizacoesActivity.class));
         }
     }
 }
