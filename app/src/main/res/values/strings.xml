@@ -7,4 +7,6 @@
     <string name="passaro">Passaro</string>
     <string name="gato">Gato</string>
     <string name="cachorro">Cachorro</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
